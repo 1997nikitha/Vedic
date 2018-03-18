@@ -1,0 +1,36 @@
+
+ users:
+insert into users(username,course,college,department,email,password) values("vidya","UG","BVRITH","CSE","vidya@gmail.com","e10adc3949ba59abbe56e057f20f883e");
+insert into users(username,course,college,department,email,password) values("nikitha","PG","VDC","MDS","nikitha@gmail.com","e10adc3949ba59abbe56e057f20f883e");
+insert into users(username,course,college,department,email,password) values("srivalli","PG","BVRITN","MBA","srivalli@gmail.com","e10adc3949ba59abbe56e057f20f883e");
+insert into users(username,course,college,department,email,password) values("Priyanka","UG","VIT","Civil Engineering","priyanka@gmail.com","e10adc3949ba59abbe56e057f20f883e");
+
+studentoutbox
+
+
+insert into studentoutbox values(1,1,"confused"," I'm confused about my summer internship.could you suggest me where to go.","2018-03-16","11:56:41");
+insert into studentoutbox values(2,2,"Stressed", "I'm stressed about my academics. Would you like to suggest me how to handle my stress.", "2018-03-16","12:07:09");
+insert into studentoutbox values(3,3,"Lack of concentration", "Now a days, I'm not able to concentrate in class.How much ever I'm trying to concentrate I'm getting deviated.Could you please help me out how can I get motivated to my studies.", "2018-03-16","12:11:28 ");
+insert into studentoutbox values(1,4,"My Experience", "From many days I am waiting to share my experience about my college BVRITH. Finally, I found this website.And coming to my experience it is a very wonderful college I am trained to be a corporate which helped me a lot during my internship.","2018-03-16","12:20:48");
+insert into studentoutbox values(2,2,"Stressed","I presently pursuing my graduation in Civil Engineering.I'm very scared about the limited job opportunities.","2018-03-16","12:26:57");
+
+
+admininbox:
+
+
+insert into admininbox values(1,"taskforce1","seen");
+insert into admininbox values(1,"taskforce2","unseen");
+insert into admininbox values(2,"taskforce1","unseen");
+insert into admininbox values(2,"taskforce2","seen");
+insert into admininbox values(3,"taskforce1","unseen");
+insert into admininbox values(3,"taskforce2","unseen");
+insert into admininbox values(4,"taskforce1","unseen");
+insert into admininbox values(4,"taskforce1","unseen");
+insert into admininbox values(5,"taskforce1","unseen");
+insert into admininbox values(2,"director","seen");
+insert into admininbox values(2,"management","seen");
+insert into admininbox values(2,"VDC","unseen");
+
+adminoutbox 
+
+insert into adminoutbox values(1,1,"Create an account in Internshala.It is the best place where you would be notified about the internships available based on your preferences.","2018-03-16","12:32:30");
